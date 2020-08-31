@@ -1,0 +1,140 @@
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+#mainLogo {
+    margin: auto;
+}
+
+#imageBox {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    padding-top: 100px;
+}
+
+#topbar {
+    position: relative;
+    top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftTopContent {
+    display: flex;
+    margin: 7px 0 0 10px;
+}
+
+#rightTopContent {
+    display: flex; 
+    justify-content: flex-end;
+    margin: 7px 25px 0 0; 
+}
+
+#search-form-container { 
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+#search-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 582px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2em;
+    padding: 5px;
+}
+
+#search-form:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+#child-of-search-form {
+    display: flex;
+    flex: 1;
+}
+
+#searchLabel {
+    display: flex;
+    flex: 1;
+}
+
+input {
+    border-color: transparent;
+    flex: 1;
+}
+
+#mag-glass-img {
+    max-width: 15px;
+    max-height: 15px;
+    margin: 5px 5px;
+}
+
+#microphone-img {
+    max-width: 15px;
+    max-height: 15px;
+    margin: 5px 5px;
+}
+
+button {
+    padding: 5px;
+    margin: 5px 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+button:hover {
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+        background-color: #f8f8f8;
+        border: 1px solid #c6c6c6;
+        color: #222;
+}
+
+#buttonBox {
+    display: flex;
+    justify-content: center;
+}
+
+.wordLinks a:hover{
+    text-decoration: underline;
+}
+
+.wordLinks {
+    font-size: 10pt;
+    font-family: arial, sans-serif;
+    color: #5F6368;
+    padding-left: 15px;
+}
+
+.bottomNavBar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    height: 35px;
+    padding: 5px;
+    border-top: 1px solid #e4e4e4;
+}
+
+#rightBottomContent {
+    margin: 0 55px 0 0;
+}
